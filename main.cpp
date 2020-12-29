@@ -17,7 +17,8 @@ int main()
     alpha=alpha*3;
     cout << "alpha=" << endl << alpha << endl;
 
-    int nblock = P/nparal;
+    int nblock = int(P/nparal);
+    //
     // IN and Iparal and result is prepared for the calculation
     MatrixXd IN(N,1);
     for(int i=0;i<N;i++){
