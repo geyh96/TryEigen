@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/keh/桌面/TryEigen/main.cpp
+iostream
+-
+math.h
+/home/keh/桌面/TryEigen/math.h
+Eigen/Dense
+-
+unsupported/Eigen/KroneckerProduct
+-
+
